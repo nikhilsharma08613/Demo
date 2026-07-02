@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NoteVerse Notes Portal</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5efe8;
+    color:#4a2f1b;
+}
+
+/* NAVBAR */
+
+header{
+    background:#d7c5a8;
+    padding:20px 0;
+}
+
+nav{
+    height:70px ;
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:34px;
+    font-weight:700;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#4a2f1b;
+    margin-left:30px;
+    font-size:20px;
+    font-weight:600;
+}
+
+/* HERO */
+
+.hero{
+    text-align:center;
+    padding:120px 20px 80px;
+}
+
+.hero h1{
+    font-size:72px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:24px;
+    max-width:800px;
+    margin:auto;
+    line-height:1.6;
+}
+
+/* SECTION */
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+}
+
+.section-title{
+    font-size:48px;
+    margin:70px 0 30px;
+    text-decoration: underline;
+}
+
+/* ACCORDION */
+.Box{
+    background:white;
+      padding:20px;
+      border-radius:15px;
+      box-shadow:0 5px 10px rgba(0,0,0,0.1);
+      transition:0.3s;
+}
+.sem{
+	background:#f9fafb;
+      border:1px solid #ddd;
+      padding:15px;
+      border-radius:10px;
+      margin-bottom:15px;
+}
+.link{
+	display:inline-block;
+    padding:10px 15px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+.info{
+    text-decoration: none;
+}
+
+/* ABOUT */
+
+.about,
+.contact{
+    margin-top:100px;
+}
+
+.about p,
+.contact p{
+    font-size:22px;
+    line-height:1.8;
+}
+
+/* SOCIAL */
+
+.social{
+    background:#d7c5a8;
+    margin-top:100px;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.social h2{
+    font-size:40px;
+    margin-bottom:25px;
+}
+
+.icons{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.icons a{
+    font-size:45px;
+    text-decoration:none;
+}
+
+/* FOOTER */
+
+footer{
+    background:#d7c5a8;
+    text-align:center;
+    padding-bottom:30px;
+    font-size:18px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.logo{
+    font-size:24px;
+}
+
+.menu a{
+    font-size:15px;
+    margin-left:15px;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.section-title{
+    font-size:34px;
+}
+
+summary{
+    font-size:22px;
+}
+
+.notes li{
+    font-size:17px;
+}
+
+.about p,
+.contact p{
+    font-size:18px;
+}
+
+.social h2{
+    font-size:28px;
+}
+
+.icons a{
+    font-size:35px;
+}
+
+}
+
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0Z0DHF1Q4D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0Z0DHF1Q4D');
+</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3168673943502568"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+<nav>
+<span>
+
+</span>
+
+<div class="menu">
+<a href="#">Home</a>
+<a href="#about">About Us</a>
+<a href="#contact">Contact Us</a>
+</div>
+
+</nav>
+</header>
+
+<section class="hero">
+
+<h1>Semester-wise Notes</h1>
+
+<p>
+Easy access to study materials and notes for Computer Science Engineering students.
+</p>
+
+</section>
+
+<div class="container">
+
+<h2 class="section-title">Select Semester</h2>
+<div class="Box">
+<div class="sem">
+    <a class="link" href="nk5.html">Semester 1</a>
+</div>
+<div class="sem">
+    <a class="link" href="#">Semester 2</a>
+</div>
+<div class="sem">
+    <a class="link" href="#">semester 3</a>
+</div>
+<div class="sem">
+    <a class="link" href="#">Semester 4</a>
+</div>
+<div class="sem">
+    <a class="link" href="#">Semester 5</a>
+</div>
+<div class="sem">
+    <a class="link" href="#">semester 6</a>
+</div>
+</div>
+<section id="about" class="about">
+
+<h2 class="section-title">About</h2>
+
+<p>
+This platform provides semester-wise notes, study materials, for diploma engineering students.
+</p>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<p>Whatsapp:
+                <a class="info" href="https://wa.me/919771645851" target="blank">9771645851</a>
+</p>
+<p>Instagram:
+                   <a class="info" href="https://www.instagram.com/nikhil_.1026" target="_blank">@nikhil_.1026</a>
+</p>
+
+</section>
+
+</div>
+
+<section class="social">
+
+<h2>Connect With Me</h2>
+
+<div class="icons">
+<a href="tel:+919771645851" target="_blank">📞</a>
+<a href="https://www.threads.net" target="_blank">@</a>
+<a href="https://linkedin.com" target="_blank">💼</a>
+</div>
+
+</section>
+
+<footer>
+© 2026 NoteVerse Notes Portal
+</footer>
+
+</body>
+</html>
